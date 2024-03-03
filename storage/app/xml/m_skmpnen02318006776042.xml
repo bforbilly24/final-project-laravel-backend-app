@@ -1,0 +1,2104 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<VFPData xml:space="preserve">
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="c_skmpnen" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="thang">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="4"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdjendok">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdsatker">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="6"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kddept">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdunit">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdprogram">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdgiat">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="4"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdoutput">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdlokasi">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdkabkota">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kddekon">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdsoutput">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdkmpnen">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdskmpnen">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="urskmpnen">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="200"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdib">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"/>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>RAA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>003</kdsoutput>
+		<kdkmpnen>053</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>TANPA SUB KOMPONEN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4466</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>004</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Pembayaran Honor Tenaga Kependidikan Non PNS</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4466</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>004</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Satuan Pengawas Internal</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4466</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>004</kdkmpnen>
+		<kdskmpnen> C</kdskmpnen>
+		<urskmpnen>Pengadaan SIM Pendidikan</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4466</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>004</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Pengadaan Bahan Praktikum (BOPTN)</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4466</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>004</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Pembayaran Honor Tenaga Pendidik Non PNS (BOPTN)</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4466</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>004</kdkmpnen>
+		<kdskmpnen> C</kdskmpnen>
+		<urskmpnen>Kegiatan Minat, Bakat dan Organisasi Mahasiswa</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4466</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>004</kdkmpnen>
+		<kdskmpnen> D</kdskmpnen>
+		<urskmpnen>Program Pembinaan Penalaran</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4466</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>004</kdkmpnen>
+		<kdskmpnen> E</kdskmpnen>
+		<urskmpnen>Program Pembinaan Kreativitas</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4466</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>004</kdkmpnen>
+		<kdskmpnen> F</kdskmpnen>
+		<urskmpnen>Program Mahasiswa Wirausaha</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4466</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>006</kdsoutput>
+		<kdkmpnen>004</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Pengadaan Bahan Pustaka</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>051</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Workshop Penelitian</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>053</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Seleksi Proposal Penelitian</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>055</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Kontrak Penelitian Lokal</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>057</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Seminar Internasional IES</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>057</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Bantuan Biaya Penerbitan Jurnal</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>057</kdkmpnen>
+		<kdskmpnen> C</kdskmpnen>
+		<urskmpnen>Bantuan Registrasi Seminar/Konferensi</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>057</kdkmpnen>
+		<kdskmpnen> D</kdskmpnen>
+		<urskmpnen>Insentif Capaian/Keberhasilan Jurnal Terpublikasi</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>057</kdkmpnen>
+		<kdskmpnen> E</kdskmpnen>
+		<urskmpnen>Insentif Capaian Indek Sitasi Publikasi</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>057</kdkmpnen>
+		<kdskmpnen> F</kdskmpnen>
+		<urskmpnen>Pendampingan peningkatan publikasi ilmiah</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>057</kdkmpnen>
+		<kdskmpnen> G</kdskmpnen>
+		<urskmpnen>Bantuan Registrasi Buku</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>059</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Monitoring Pelaksanaan Penelitian</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>059</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Seminar Hasil Penelitian</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>061</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Melanggan perangkat lunak cek plagiarisme</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>061</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Pengelolaan Jurnal Nasional Terkaredistasi EMITTER</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>064</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Bantuan Biaya Pendaftaran Paten</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>064</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Bantuan Biaya Pemeriksaan Substantif Paten</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>064</kdkmpnen>
+		<kdskmpnen> C</kdskmpnen>
+		<urskmpnen>Insentif Paten Terdaftar dan Granted Paten bagi Inventor</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>003</kdsoutput>
+		<kdkmpnen>052</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Seleksi Proposal Pengabdian Masyarakat</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>003</kdsoutput>
+		<kdkmpnen>053</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Kontrak Pengabdian Masyarakat</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>003</kdsoutput>
+		<kdkmpnen>056</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Desk Evaluation</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>003</kdsoutput>
+		<kdkmpnen>056</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Laporan Akhir Pengabdian Masyarakat</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>004</kdsoutput>
+		<kdkmpnen>051</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Pengelolaan Administrasi Kantor</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>004</kdsoutput>
+		<kdkmpnen>051</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Kegiatan Perencanaan Anggaran dan Program Kerja</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>004</kdsoutput>
+		<kdkmpnen>051</kdkmpnen>
+		<kdskmpnen> C</kdskmpnen>
+		<urskmpnen>Kegiatan Persiapan BLU</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>004</kdsoutput>
+		<kdkmpnen>051</kdkmpnen>
+		<kdskmpnen> D</kdskmpnen>
+		<urskmpnen>Kegiatan Reformasi Birokrasi</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>004</kdsoutput>
+		<kdkmpnen>051</kdkmpnen>
+		<kdskmpnen> E</kdskmpnen>
+		<urskmpnen>Penilaian Angka Kredit</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>004</kdsoutput>
+		<kdkmpnen>051</kdkmpnen>
+		<kdskmpnen> F</kdskmpnen>
+		<urskmpnen>Kegiatan Penunjang Proyek SBSN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>004</kdsoutput>
+		<kdkmpnen>053</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>TANPA SUB KOMPONEN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>004</kdsoutput>
+		<kdkmpnen>057</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>TANPA SUB KOMPONEN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>004</kdsoutput>
+		<kdkmpnen>059</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>TANPA SUB KOMPONEN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>004</kdsoutput>
+		<kdkmpnen>061</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Penyusunan Laporan Kinerja PENS 2022</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>BEI</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>004</kdsoutput>
+		<kdkmpnen>061</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Penyusunan Laporan Keuangan dan BMN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>CAA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>051</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>TANPA SUB KOMPONEN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>CAA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>051</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>TANPA SUB KOMPONEN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>CAA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>002</kdsoutput>
+		<kdkmpnen>053</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>TANPA SUB KOMPONEN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>051</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Ujian Masuk</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>051</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Informasi Pengenalan Mahasiswa Baru</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>053</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Kelas Reguler</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>053</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>PSDKU Lamongan</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>053</kdkmpnen>
+		<kdskmpnen> C</kdskmpnen>
+		<urskmpnen>PSDKU Sumenep</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>055</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Pelaksanaan Wisuda</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>057</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>TANPA SUB KOMPONEN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>059</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>TANPA SUB KOMPONEN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>064</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Kegiatan Minat Bakat, Kesejahteraan dan Organisasi Mahasiswa</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>066</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Program Pembinaan Penalaran</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>070</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Student Exchange Outgoing</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>070</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Student Exchange Incoming</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>070</kdkmpnen>
+		<kdskmpnen> C</kdskmpnen>
+		<urskmpnen>Kegiatan Negara Berkembang (KNB)</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>070</kdkmpnen>
+		<kdskmpnen> D</kdskmpnen>
+		<urskmpnen>Penguatan KUI dan Kerjasama Internasiona</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>070</kdkmpnen>
+		<kdskmpnen> E</kdskmpnen>
+		<urskmpnen>Operasional Kerjasama</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>070</kdkmpnen>
+		<kdskmpnen> F</kdskmpnen>
+		<urskmpnen>Kegiatan Unit Kerjasama Institusi</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>070</kdkmpnen>
+		<kdskmpnen> G</kdskmpnen>
+		<urskmpnen>Kegiatan Unit Peningkatan dan Uji Kompetensi</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>070</kdkmpnen>
+		<kdskmpnen> H</kdskmpnen>
+		<urskmpnen>Kegiatan UPT Komputer</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>070</kdkmpnen>
+		<kdskmpnen> I</kdskmpnen>
+		<urskmpnen>Kegiatan Layanan Inovasi</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>070</kdkmpnen>
+		<kdskmpnen> J</kdskmpnen>
+		<urskmpnen>Kegiatan Unit Pengolah Data Elektronik</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>070</kdkmpnen>
+		<kdskmpnen> K</kdskmpnen>
+		<urskmpnen>Kegiatan Teknologi Pembelajaran</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Kuliah Umum</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Sertifikasi Laboratorium</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> C</kdskmpnen>
+		<urskmpnen>Pelatihan/Workshop Penjaminan Mutu Akademik</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> D</kdskmpnen>
+		<urskmpnen>Penjaminan Mutu PT</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> E</kdskmpnen>
+		<urskmpnen>Akreditasi Program Studi/Institusi</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> F</kdskmpnen>
+		<urskmpnen>Pencitraan Institusi</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> G</kdskmpnen>
+		<urskmpnen>Kegiatan Departemen Teknik Elektro</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> H</kdskmpnen>
+		<urskmpnen>Kegiatan Departemen Teknik Informatika dan Komputer</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> I</kdskmpnen>
+		<urskmpnen>Kegiatan Departemen Teknik Mekanika dan Energi</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> J</kdskmpnen>
+		<urskmpnen>Kegiatan Departemen Teknologi Multimedia Kreatif</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> K</kdskmpnen>
+		<urskmpnen>Kegiatan Pascasarjana</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> L</kdskmpnen>
+		<urskmpnen>Kegiatan Pendidikan Jarak Jauh</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>072</kdkmpnen>
+		<kdskmpnen> M</kdskmpnen>
+		<urskmpnen>Kegiatan Program Studi Diluar Kampus Utama</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>074</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>TANPA SUB KOMPONEN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>076</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Honorarium Tugas Tambahan</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>DBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>001</kdsoutput>
+		<kdkmpnen>076</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>Honorarium Kelebihan Jam Mengajar</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kdoutput>RBJ</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>003</kdsoutput>
+		<kdkmpnen>053</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>TANPA SUB KOMPONEN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>WA</kdprogram>
+		<kdgiat>4261</kdgiat>
+		<kdoutput>EBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>994</kdsoutput>
+		<kdkmpnen>001</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>Pembayaran gaji dan tunjangan</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>WA</kdprogram>
+		<kdgiat>4261</kdgiat>
+		<kdoutput>EBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>994</kdsoutput>
+		<kdkmpnen>002</kdkmpnen>
+		<kdskmpnen> A</kdskmpnen>
+		<urskmpnen>PERAWATAN GEDUNG KAMPUS</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>WA</kdprogram>
+		<kdgiat>4261</kdgiat>
+		<kdoutput>EBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>994</kdsoutput>
+		<kdkmpnen>002</kdkmpnen>
+		<kdskmpnen> B</kdskmpnen>
+		<urskmpnen>PERBAIKAN PERALATAN KANTOR</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>WA</kdprogram>
+		<kdgiat>4261</kdgiat>
+		<kdoutput>EBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>994</kdsoutput>
+		<kdkmpnen>002</kdkmpnen>
+		<kdskmpnen> C</kdskmpnen>
+		<urskmpnen>OPERASIONAL PERKANTORAN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>WA</kdprogram>
+		<kdgiat>4261</kdgiat>
+		<kdoutput>EBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>994</kdsoutput>
+		<kdkmpnen>002</kdkmpnen>
+		<kdskmpnen> D</kdskmpnen>
+		<urskmpnen>POLIKLINIK / OBAT-OBATAN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>WA</kdprogram>
+		<kdgiat>4261</kdgiat>
+		<kdoutput>EBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>994</kdsoutput>
+		<kdkmpnen>002</kdkmpnen>
+		<kdskmpnen> E</kdskmpnen>
+		<urskmpnen>PETUGAS KEAMANAN, PENGEMUDI DAN KEBERSIHAN</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>WA</kdprogram>
+		<kdgiat>4261</kdgiat>
+		<kdoutput>EBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>994</kdsoutput>
+		<kdkmpnen>002</kdkmpnen>
+		<kdskmpnen> F</kdskmpnen>
+		<urskmpnen>PERTEMUAN/JAMUAN TAMU</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>WA</kdprogram>
+		<kdgiat>4261</kdgiat>
+		<kdoutput>EBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>994</kdsoutput>
+		<kdkmpnen>002</kdkmpnen>
+		<kdskmpnen> G</kdskmpnen>
+		<urskmpnen>PERAWATAN KENDARAAN BERMOTOR</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>WA</kdprogram>
+		<kdgiat>4261</kdgiat>
+		<kdoutput>EBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>994</kdsoutput>
+		<kdkmpnen>002</kdkmpnen>
+		<kdskmpnen> H</kdskmpnen>
+		<urskmpnen>LANGGANAN INTERNET</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+	<c_skmpnen>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>WA</kdprogram>
+		<kdgiat>4261</kdgiat>
+		<kdoutput>EBA</kdoutput>
+		<kdlokasi>05</kdlokasi>
+		<kdkabkota>51</kdkabkota>
+		<kddekon>2</kddekon>
+		<kdsoutput>994</kdsoutput>
+		<kdkmpnen>002</kdkmpnen>
+		<kdskmpnen> I</kdskmpnen>
+		<urskmpnen>LANGANAN DAYA DAN JASA</urskmpnen>
+		<kdib>00</kdib>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_skmpnen>
+</VFPData>
