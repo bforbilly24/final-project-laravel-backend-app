@@ -19,4 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/xml-data', [XmlController::class, 'getXmlData']);
+Route::get('/xml-data', [XmlController::class, 'parse']);
