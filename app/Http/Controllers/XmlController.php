@@ -14,15 +14,10 @@ class XmlController extends Controller
         $this->xmlService = $xmlService;
     }
 
-    public function getXmlData()
+    public function parse()
     {
-        $filePath = 'xml/data-1.xml';
-        $xmlData = $this->xmlService->parseXml($filePath);
-        
-        if ($xmlData) {
-            return response()->json($xmlData);
-        } else {
-            return response()->json(['error' => 'Failed to read XML file.'], 500);
-        }
+        $filePath = 'xml/d_trktrm02318006776042.xml';
+        $array = $this->xmlService->parseXml($filePath);
+        return response()->json($array);
     }
 }
