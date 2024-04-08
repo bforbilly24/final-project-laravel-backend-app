@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\RkksController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -15,10 +16,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Rkks routes
+// get xml uploaded in table rkks_xml
+// upload xml file from front-end
 
-Route::get('/xml-data', [RkksController::class, 'parse']);
-Route::get('/rkks', [RkksController::class, 'index']);
-Route::post('/rkks-create', [RkksController::class, 'store']);
+// Auth routes
+Route::group(
+    ['prefix'],
+    function () {
+        Route::get('/xml-data', [RkksController::class, 'parse']);
+        Route::post('/rkks-create', [RkksController::class, 'store']);
+        Route::get('/rkks', [RkksController::class, 'index']);
+        Route::post('/login', [AuthController::class, 'login']);
+        Route::post('/logout', [AuthController::class, 'logout']);
+    }
+);
