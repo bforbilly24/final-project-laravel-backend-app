@@ -1,9 +1,8 @@
 <?php
 
-use App\Http\Controllers\XmlController;
+use App\Http\Controllers\Api\RkksController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/read-xml', 'App\Http\Controllers\XmlController@readXml');
 
 /*
 |--------------------------------------------------------------------------
@@ -15,11 +14,3 @@ Route::get('/read-xml', 'App\Http\Controllers\XmlController@readXml');
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-
-// Route for reading XML data
-Route::get('/read-xml', [XmlController::class, 'readXml']);
-
-// Route for displaying XML data in a table
-Route::get('/xml-table', [XmlController::class, 'showXmlTable']);
-
