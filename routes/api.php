@@ -21,13 +21,25 @@ use Illuminate\Support\Facades\Route;
 // upload xml file from front-end
 
 // Auth routes
-Route::group(
-    ['prefix'],
-    function () {
-        Route::get('/xml-data', [RkksController::class, 'parse']);
-        Route::post('/rkks-create', [RkksController::class, 'store']);
-        Route::get('/rkks', [RkksController::class, 'index']);
-        Route::post('/login', [AuthController::class, 'login']);
-        Route::post('/logout', [AuthController::class, 'logout']);
-    }
-);
+// Route::group(
+//     ['prefix'],
+//     function () {
+//         Route::get('/xml-data', [RkksController::class, 'parse']);
+//         Route::post('/rkks-create', [RkksController::class, 'store']);
+//         Route::get('/rkks', [RkksController::class, 'index']);
+//         Route::post('/login', [AuthController::class, 'login']);
+//         Route::post('/logout', [AuthController::class, 'logout']);
+//     }
+// );
+
+
+
+
+
+Route::group(['middleware' => ['auth:api']], function () {
+    Route::get('/xml-data', [RkksController::class, 'parse']);
+    Route::post('/rkks-create', [RkksController::class, 'store']);
+    Route::get('/rkks', [RkksController::class, 'index']);
+    Route::post('/logout', [AuthController::class, 'logout']);
+});
+Route::post('/login', [AuthController::class, 'login']);
