@@ -1,0 +1,993 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<VFPData xml:space="preserve">
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="c_trktrm" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="thang">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="4"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdjendok">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdsatker">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="6"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kddept">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdunit">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdprogram">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdgiat">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="4"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kddekon">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="rphpagu">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdtrktrm">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jnsbelanja">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="6"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jml01">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jml02">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jml03">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jml04">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jml05">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jml06">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jml07">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jml08">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jml09">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jml10">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jml11">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="jml12">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="15"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="persen01">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="persen02">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="persen03">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="persen04">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="persen05">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="persen06">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="persen07">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="persen08">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="persen09">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="persen10">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="persen11">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="persen12">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="5"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chk01">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chk02">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chk03">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chk04">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chk05">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chk06">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chk07">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chk08">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chk09">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chk10">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chk11">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chk12">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chkjmltrk">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chkpersen">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chkrata2">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="chkrata2gj">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="kdlokasi">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"/>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<c_trktrm>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kddekon>2</kddekon>
+		<rphpagu>400000000</rphpagu>
+		<kdtrktrm>6</kdtrktrm>
+		<jnsbelanja>425419</jnsbelanja>
+		<jml01>33333000</jml01>
+		<jml02>33333000</jml02>
+		<jml03>33333000</jml03>
+		<jml04>33333000</jml04>
+		<jml05>33333000</jml05>
+		<jml06>33333000</jml06>
+		<jml07>33333000</jml07>
+		<jml08>33333000</jml08>
+		<jml09>33333000</jml09>
+		<jml10>33333000</jml10>
+		<jml11>33333000</jml11>
+		<jml12>33337000</jml12>
+		<persen01>8.33</persen01>
+		<persen02>8.33</persen02>
+		<persen03>8.33</persen03>
+		<persen04>8.33</persen04>
+		<persen05>8.33</persen05>
+		<persen06>8.33</persen06>
+		<persen07>8.33</persen07>
+		<persen08>8.33</persen08>
+		<persen09>8.33</persen09>
+		<persen10>8.33</persen10>
+		<persen11>8.33</persen11>
+		<persen12>8.33</persen12>
+		<chk01>1</chk01>
+		<chk02>1</chk02>
+		<chk03>1</chk03>
+		<chk04>1</chk04>
+		<chk05>1</chk05>
+		<chk06>1</chk06>
+		<chk07>1</chk07>
+		<chk08>1</chk08>
+		<chk09>1</chk09>
+		<chk10>1</chk10>
+		<chk11>1</chk11>
+		<chk12>1</chk12>
+		<chkjmltrk>0</chkjmltrk>
+		<chkpersen>0</chkpersen>
+		<chkrata2>0</chkrata2>
+		<chkrata2gj>0</chkrata2gj>
+		<kdlokasi></kdlokasi>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_trktrm>
+	<c_trktrm>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4466</kdgiat>
+		<kddekon>2</kddekon>
+		<rphpagu>51510000</rphpagu>
+		<kdtrktrm>1</kdtrktrm>
+		<jnsbelanja>53</jnsbelanja>
+		<jml01>4292000</jml01>
+		<jml02>4292000</jml02>
+		<jml03>4292000</jml03>
+		<jml04>4292000</jml04>
+		<jml05>4292000</jml05>
+		<jml06>4292000</jml06>
+		<jml07>4292000</jml07>
+		<jml08>4292000</jml08>
+		<jml09>4292000</jml09>
+		<jml10>4292000</jml10>
+		<jml11>4292000</jml11>
+		<jml12>4298000</jml12>
+		<persen01>8.33</persen01>
+		<persen02>8.33</persen02>
+		<persen03>8.33</persen03>
+		<persen04>8.33</persen04>
+		<persen05>8.33</persen05>
+		<persen06>8.33</persen06>
+		<persen07>8.33</persen07>
+		<persen08>8.33</persen08>
+		<persen09>8.33</persen09>
+		<persen10>8.33</persen10>
+		<persen11>8.33</persen11>
+		<persen12>8.34</persen12>
+		<chk01>1</chk01>
+		<chk02>1</chk02>
+		<chk03>1</chk03>
+		<chk04>1</chk04>
+		<chk05>1</chk05>
+		<chk06>1</chk06>
+		<chk07>1</chk07>
+		<chk08>1</chk08>
+		<chk09>1</chk09>
+		<chk10>1</chk10>
+		<chk11>1</chk11>
+		<chk12>1</chk12>
+		<chkjmltrk>0</chkjmltrk>
+		<chkpersen>0</chkpersen>
+		<chkrata2>0</chkrata2>
+		<chkrata2gj>0</chkrata2gj>
+		<kdlokasi></kdlokasi>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_trktrm>
+	<c_trktrm>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kddekon>2</kddekon>
+		<rphpagu>8569307000</rphpagu>
+		<kdtrktrm>1</kdtrktrm>
+		<jnsbelanja>53</jnsbelanja>
+		<jml01>714106000</jml01>
+		<jml02>714106000</jml02>
+		<jml03>714106000</jml03>
+		<jml04>714106000</jml04>
+		<jml05>714106000</jml05>
+		<jml06>714106000</jml06>
+		<jml07>714106000</jml07>
+		<jml08>714106000</jml08>
+		<jml09>714106000</jml09>
+		<jml10>714106000</jml10>
+		<jml11>714106000</jml11>
+		<jml12>714141000</jml12>
+		<persen01>8.33</persen01>
+		<persen02>8.33</persen02>
+		<persen03>8.33</persen03>
+		<persen04>8.33</persen04>
+		<persen05>8.33</persen05>
+		<persen06>8.33</persen06>
+		<persen07>8.33</persen07>
+		<persen08>8.33</persen08>
+		<persen09>8.33</persen09>
+		<persen10>8.33</persen10>
+		<persen11>8.33</persen11>
+		<persen12>8.33</persen12>
+		<chk01>1</chk01>
+		<chk02>1</chk02>
+		<chk03>1</chk03>
+		<chk04>1</chk04>
+		<chk05>1</chk05>
+		<chk06>1</chk06>
+		<chk07>1</chk07>
+		<chk08>1</chk08>
+		<chk09>1</chk09>
+		<chk10>1</chk10>
+		<chk11>1</chk11>
+		<chk12>1</chk12>
+		<chkjmltrk>0</chkjmltrk>
+		<chkpersen>0</chkpersen>
+		<chkrata2>0</chkrata2>
+		<chkrata2gj>0</chkrata2gj>
+		<kdlokasi></kdlokasi>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_trktrm>
+	<c_trktrm>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>WA</kdprogram>
+		<kdgiat>4261</kdgiat>
+		<kddekon>2</kddekon>
+		<rphpagu>34434127000</rphpagu>
+		<kdtrktrm>1</kdtrktrm>
+		<jnsbelanja>51</jnsbelanja>
+		<jml01>2869499000</jml01>
+		<jml02>2869499000</jml02>
+		<jml03>2869499000</jml03>
+		<jml04>2869499000</jml04>
+		<jml05>2869499000</jml05>
+		<jml06>2869499000</jml06>
+		<jml07>2869499000</jml07>
+		<jml08>2869499000</jml08>
+		<jml09>2869499000</jml09>
+		<jml10>2869499000</jml10>
+		<jml11>2869499000</jml11>
+		<jml12>2869638000</jml12>
+		<persen01>8.33</persen01>
+		<persen02>8.33</persen02>
+		<persen03>8.33</persen03>
+		<persen04>8.33</persen04>
+		<persen05>8.33</persen05>
+		<persen06>8.33</persen06>
+		<persen07>8.33</persen07>
+		<persen08>8.33</persen08>
+		<persen09>8.33</persen09>
+		<persen10>8.33</persen10>
+		<persen11>8.33</persen11>
+		<persen12>8.33</persen12>
+		<chk01>1</chk01>
+		<chk02>1</chk02>
+		<chk03>1</chk03>
+		<chk04>1</chk04>
+		<chk05>1</chk05>
+		<chk06>1</chk06>
+		<chk07>1</chk07>
+		<chk08>1</chk08>
+		<chk09>1</chk09>
+		<chk10>1</chk10>
+		<chk11>1</chk11>
+		<chk12>1</chk12>
+		<chkjmltrk>0</chkjmltrk>
+		<chkpersen>0</chkpersen>
+		<chkrata2>0</chkrata2>
+		<chkrata2gj>0</chkrata2gj>
+		<kdlokasi></kdlokasi>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_trktrm>
+	<c_trktrm>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4466</kdgiat>
+		<kddekon>2</kddekon>
+		<rphpagu>10282364000</rphpagu>
+		<kdtrktrm>1</kdtrktrm>
+		<jnsbelanja>52</jnsbelanja>
+		<jml01>593317000</jml01>
+		<jml02>593317000</jml02>
+		<jml03>593317000</jml03>
+		<jml04>1593317000</jml04>
+		<jml05>593317000</jml05>
+		<jml06>791730000</jml06>
+		<jml07>743317000</jml07>
+		<jml08>707203000</jml08>
+		<jml09>2143317000</jml09>
+		<jml10>593317000</jml10>
+		<jml11>743317000</jml11>
+		<jml12>593578000</jml12>
+		<persen01>5.77</persen01>
+		<persen02>5.77</persen02>
+		<persen03>5.77</persen03>
+		<persen04>15.5</persen04>
+		<persen05>5.77</persen05>
+		<persen06>7.7</persen06>
+		<persen07>7.23</persen07>
+		<persen08>6.88</persen08>
+		<persen09>20.84</persen09>
+		<persen10>5.77</persen10>
+		<persen11>7.23</persen11>
+		<persen12>5.77</persen12>
+		<chk01>1</chk01>
+		<chk02>1</chk02>
+		<chk03>1</chk03>
+		<chk04>1</chk04>
+		<chk05>1</chk05>
+		<chk06>1</chk06>
+		<chk07>1</chk07>
+		<chk08>1</chk08>
+		<chk09>1</chk09>
+		<chk10>1</chk10>
+		<chk11>1</chk11>
+		<chk12>1</chk12>
+		<chkjmltrk>0</chkjmltrk>
+		<chkpersen>0</chkpersen>
+		<chkrata2>0</chkrata2>
+		<chkrata2gj>0</chkrata2gj>
+		<kdlokasi></kdlokasi>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_trktrm>
+	<c_trktrm>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kddekon>2</kddekon>
+		<rphpagu>93725000000</rphpagu>
+		<kdtrktrm>1</kdtrktrm>
+		<jnsbelanja>53</jnsbelanja>
+		<jml01>7810414000</jml01>
+		<jml02>7810414000</jml02>
+		<jml03>7810414000</jml03>
+		<jml04>7810414000</jml04>
+		<jml05>7810414000</jml05>
+		<jml06>7810414000</jml06>
+		<jml07>7810414000</jml07>
+		<jml08>7810414000</jml08>
+		<jml09>7810414000</jml09>
+		<jml10>7810414000</jml10>
+		<jml11>7810414000</jml11>
+		<jml12>7810446000</jml12>
+		<persen01>8.33</persen01>
+		<persen02>8.33</persen02>
+		<persen03>8.33</persen03>
+		<persen04>8.33</persen04>
+		<persen05>8.33</persen05>
+		<persen06>8.33</persen06>
+		<persen07>8.33</persen07>
+		<persen08>8.33</persen08>
+		<persen09>8.33</persen09>
+		<persen10>8.33</persen10>
+		<persen11>8.33</persen11>
+		<persen12>8.33</persen12>
+		<chk01>1</chk01>
+		<chk02>1</chk02>
+		<chk03>1</chk03>
+		<chk04>1</chk04>
+		<chk05>1</chk05>
+		<chk06>1</chk06>
+		<chk07>1</chk07>
+		<chk08>1</chk08>
+		<chk09>1</chk09>
+		<chk10>1</chk10>
+		<chk11>1</chk11>
+		<chk12>1</chk12>
+		<chkjmltrk>0</chkjmltrk>
+		<chkpersen>0</chkpersen>
+		<chkrata2>0</chkrata2>
+		<chkrata2gj>0</chkrata2gj>
+		<kdlokasi></kdlokasi>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_trktrm>
+	<c_trktrm>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kddekon>2</kddekon>
+		<rphpagu>25349554000</rphpagu>
+		<kdtrktrm>1</kdtrktrm>
+		<jnsbelanja>52</jnsbelanja>
+		<jml01>1961602000</jml01>
+		<jml02>1961602000</jml02>
+		<jml03>1961602000</jml03>
+		<jml04>1961602000</jml04>
+		<jml05>3336602000</jml05>
+		<jml06>1961602000</jml06>
+		<jml07>2021602000</jml07>
+		<jml08>1961602000</jml08>
+		<jml09>2336602000</jml09>
+		<jml10>1961602000</jml10>
+		<jml11>1961602000</jml11>
+		<jml12>1961932000</jml12>
+		<persen01>7.74</persen01>
+		<persen02>7.74</persen02>
+		<persen03>7.74</persen03>
+		<persen04>7.74</persen04>
+		<persen05>13.16</persen05>
+		<persen06>7.74</persen06>
+		<persen07>7.97</persen07>
+		<persen08>7.74</persen08>
+		<persen09>9.22</persen09>
+		<persen10>7.74</persen10>
+		<persen11>7.74</persen11>
+		<persen12>7.74</persen12>
+		<chk01>1</chk01>
+		<chk02>1</chk02>
+		<chk03>1</chk03>
+		<chk04>1</chk04>
+		<chk05>1</chk05>
+		<chk06>1</chk06>
+		<chk07>1</chk07>
+		<chk08>1</chk08>
+		<chk09>1</chk09>
+		<chk10>1</chk10>
+		<chk11>1</chk11>
+		<chk12>1</chk12>
+		<chkjmltrk>0</chkjmltrk>
+		<chkpersen>0</chkpersen>
+		<chkrata2>0</chkrata2>
+		<chkrata2gj>0</chkrata2gj>
+		<kdlokasi></kdlokasi>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_trktrm>
+	<c_trktrm>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>WA</kdprogram>
+		<kdgiat>4261</kdgiat>
+		<kddekon>2</kddekon>
+		<rphpagu>13392821000</rphpagu>
+		<kdtrktrm>1</kdtrktrm>
+		<jnsbelanja>52</jnsbelanja>
+		<jml01>1116060000</jml01>
+		<jml02>1116060000</jml02>
+		<jml03>1116060000</jml03>
+		<jml04>1116060000</jml04>
+		<jml05>1116060000</jml05>
+		<jml06>1116060000</jml06>
+		<jml07>1116060000</jml07>
+		<jml08>1116060000</jml08>
+		<jml09>1116060000</jml09>
+		<jml10>1116060000</jml10>
+		<jml11>1116060000</jml11>
+		<jml12>1116161000</jml12>
+		<persen01>8.33</persen01>
+		<persen02>8.33</persen02>
+		<persen03>8.33</persen03>
+		<persen04>8.33</persen04>
+		<persen05>8.33</persen05>
+		<persen06>8.33</persen06>
+		<persen07>8.33</persen07>
+		<persen08>8.33</persen08>
+		<persen09>8.33</persen09>
+		<persen10>8.33</persen10>
+		<persen11>8.33</persen11>
+		<persen12>8.33</persen12>
+		<chk01>1</chk01>
+		<chk02>1</chk02>
+		<chk03>1</chk03>
+		<chk04>1</chk04>
+		<chk05>1</chk05>
+		<chk06>1</chk06>
+		<chk07>1</chk07>
+		<chk08>1</chk08>
+		<chk09>1</chk09>
+		<chk10>1</chk10>
+		<chk11>1</chk11>
+		<chk12>1</chk12>
+		<chkjmltrk>0</chkjmltrk>
+		<chkpersen>0</chkpersen>
+		<chkrata2>0</chkrata2>
+		<chkrata2gj>0</chkrata2gj>
+		<kdlokasi></kdlokasi>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_trktrm>
+	<c_trktrm>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kddekon>2</kddekon>
+		<rphpagu>32807000000</rphpagu>
+		<kdtrktrm>6</kdtrktrm>
+		<jnsbelanja>425412</jnsbelanja>
+		<jml01>2733916000</jml01>
+		<jml02>2733916000</jml02>
+		<jml03>2733916000</jml03>
+		<jml04>2733916000</jml04>
+		<jml05>2733916000</jml05>
+		<jml06>2733916000</jml06>
+		<jml07>2733916000</jml07>
+		<jml08>2733916000</jml08>
+		<jml09>2733916000</jml09>
+		<jml10>2733916000</jml10>
+		<jml11>2733916000</jml11>
+		<jml12>2733924000</jml12>
+		<persen01>8.33</persen01>
+		<persen02>8.33</persen02>
+		<persen03>8.33</persen03>
+		<persen04>8.33</persen04>
+		<persen05>8.33</persen05>
+		<persen06>8.33</persen06>
+		<persen07>8.33</persen07>
+		<persen08>8.33</persen08>
+		<persen09>8.33</persen09>
+		<persen10>8.33</persen10>
+		<persen11>8.33</persen11>
+		<persen12>8.33</persen12>
+		<chk01>1</chk01>
+		<chk02>1</chk02>
+		<chk03>1</chk03>
+		<chk04>1</chk04>
+		<chk05>1</chk05>
+		<chk06>1</chk06>
+		<chk07>1</chk07>
+		<chk08>1</chk08>
+		<chk09>1</chk09>
+		<chk10>1</chk10>
+		<chk11>1</chk11>
+		<chk12>1</chk12>
+		<chkjmltrk>0</chkjmltrk>
+		<chkpersen>0</chkpersen>
+		<chkrata2>0</chkrata2>
+		<chkrata2gj>0</chkrata2gj>
+		<kdlokasi></kdlokasi>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_trktrm>
+	<c_trktrm>
+		<thang>2023</thang>
+		<kdjendok>01</kdjendok>
+		<kdsatker>677604</kdsatker>
+		<kddept>023</kddept>
+		<kdunit>18</kdunit>
+		<kdprogram>DL</kdprogram>
+		<kdgiat>4467</kdgiat>
+		<kddekon>2</kddekon>
+		<rphpagu>1052000000</rphpagu>
+		<kdtrktrm>6</kdtrktrm>
+		<jnsbelanja>425411</jnsbelanja>
+		<jml01>87666000</jml01>
+		<jml02>87666000</jml02>
+		<jml03>87666000</jml03>
+		<jml04>87666000</jml04>
+		<jml05>87666000</jml05>
+		<jml06>87666000</jml06>
+		<jml07>87666000</jml07>
+		<jml08>87666000</jml08>
+		<jml09>87666000</jml09>
+		<jml10>87666000</jml10>
+		<jml11>87666000</jml11>
+		<jml12>87674000</jml12>
+		<persen01>8.33</persen01>
+		<persen02>8.33</persen02>
+		<persen03>8.33</persen03>
+		<persen04>8.33</persen04>
+		<persen05>8.33</persen05>
+		<persen06>8.33</persen06>
+		<persen07>8.33</persen07>
+		<persen08>8.33</persen08>
+		<persen09>8.33</persen09>
+		<persen10>8.33</persen10>
+		<persen11>8.33</persen11>
+		<persen12>8.33</persen12>
+		<chk01>1</chk01>
+		<chk02>1</chk02>
+		<chk03>1</chk03>
+		<chk04>1</chk04>
+		<chk05>1</chk05>
+		<chk06>1</chk06>
+		<chk07>1</chk07>
+		<chk08>1</chk08>
+		<chk09>1</chk09>
+		<chk10>1</chk10>
+		<chk11>1</chk11>
+		<chk12>1</chk12>
+		<chkjmltrk>0</chkjmltrk>
+		<chkpersen>0</chkpersen>
+		<chkrata2>0</chkrata2>
+		<chkrata2gj>0</chkrata2gj>
+		<kdlokasi></kdlokasi>
+		<levelrev></levelrev>
+		<revrkaklke></revrkaklke>
+		<revdipake></revdipake>
+	</c_trktrm>
+</VFPData>
