@@ -16,30 +16,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Rkks routes
-// get xml uploaded in table rkks_xml
-// upload xml file from front-end
-
-// Auth routes
-// Route::group(
-//     ['prefix'],
-//     function () {
-//         Route::get('/xml-data', [RkksController::class, 'parse']);
-//         Route::post('/rkks-create', [RkksController::class, 'store']);
-//         Route::get('/rkks', [RkksController::class, 'index']);
-//         Route::post('/login', [AuthController::class, 'login']);
-//         Route::post('/logout', [AuthController::class, 'logout']);
-//     }
-// );
-
-
-
-
-
 Route::group(['middleware' => ['auth:api']], function () {
+    // read xml to json
     Route::get('/xml-data', [RkksController::class, 'parse']);
+    // create for uploaded xml file
     Route::post('/rkks-create', [RkksController::class, 'store']);
+    // read xml data from database
     Route::get('/rkks', [RkksController::class, 'index']);
     Route::post('/logout', [AuthController::class, 'logout']);
 });
+
 Route::post('/login', [AuthController::class, 'login']);
