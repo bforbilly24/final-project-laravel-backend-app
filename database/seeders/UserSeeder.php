@@ -16,16 +16,10 @@ class UserSeeder extends Seeder
     public function run()
     {
         $user = User::create([
-            'username' => 'admin',
+            // 'username' => 'admin',
             'email' => 'firstadmin@mail.com',
             'password' => bcrypt('Admin123,'),
         ]);
-
-        // DB::table('admin_users')->insert([
-        //     'name' => 'tobemodified',
-        //     'email' => 'tobemodified',
-        //     'password' => bcrypt('tobemodified')
-        // ]);
 
         $token = JWTAuth::fromUser($user);
 
