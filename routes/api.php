@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\RkksController;
-use Illuminate\Http\Request;
+use App\Http\Controllers\Api\XmlController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,13 +17,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(['middleware' => ['auth:api']], function () {
-    // read xml to json
-    Route::get('/xml-data', [RkksController::class, 'parse']);
-    // create for uploaded xml file
-    Route::post('/rkks-create', [RkksController::class, 'store']);
-    // read xml data from database
-    Route::get('/rkks', [RkksController::class, 'index']);
     Route::post('/logout', [AuthController::class, 'logout']);
 });
 
+// read xml to json
+Route::get('/xml-data', [RkksController::class, 'parse']);
+// create for uploaded xml file
+Route::post('/rkks-create', [RkksController::class, 'store']);
+// read xml data from database
+Route::get('/rkks', [RkksController::class, 'index']);
+
+// loogin
 Route::post('/login', [AuthController::class, 'login']);
+
+
+// XML upload routes
+Route::post('/upload-xml', [XmlController::class, 'upload']);
+Route::get('/test-xml', [XmlController::class, 'test']);
