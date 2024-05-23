@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Facades\DB;
+use App\Models\Xml;
 
 class XmlController extends Controller
 {
@@ -31,8 +31,10 @@ class XmlController extends Controller
             return response()->json(['error' => $data['error']], 400);
         }
 
-        // Insert the data into the database
-        DB::table('xml_data')->insert($data);
+        // Insert the data into the database using Eloquent's create method
+        foreach ($data as $entry) {
+            Xml::create($entry);
+        }
 
         return response()->json(['success' => 'File uploaded and processed successfully'], 200);
     }
