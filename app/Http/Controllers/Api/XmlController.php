@@ -5,7 +5,9 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\DB;
 use App\Models\Xml;
+use Carbon\Carbon;
 
 class XmlController extends Controller
 {
@@ -31,10 +33,15 @@ class XmlController extends Controller
             return response()->json(['error' => $data['error']], 400);
         }
 
-        // Insert the data into the database using Eloquent's create method
-        foreach ($data as $entry) {
-            Xml::create($entry);
+        // Add timestamps
+        $timestamp = Carbon::now();
+        foreach ($data as &$entry) {
+            $entry['created_at'] = $timestamp;
+            $entry['updated_at'] = $timestamp;
         }
+
+        // Insert the data into the database
+        DB::table('xml_data')->insert($data);
 
         return response()->json(['success' => 'File uploaded and processed successfully'], 200);
     }
@@ -102,5 +109,12 @@ class XmlController extends Controller
         }
 
         return $data;
+    }
+
+    public function getData()
+    {
+        $data = DB::table('xml_data')->get();
+
+        return response()->json(['data' => $data], 200);
     }
 }
