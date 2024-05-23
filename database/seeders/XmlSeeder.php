@@ -1,7 +1,5 @@
 <?php
 
-// database/seeders/XmlSeeder.php
-
 namespace Database\Seeders;
 
 use App\Models\Xml;
@@ -34,43 +32,47 @@ class XmlSeeder extends Seeder
         $xml = simplexml_load_string($xmlContent);
         $data = [];
 
-        foreach ($xml->c_akun as $c_akun) {
-            $data[] = [
-                'A'  => (string) $c_akun->thang,
-                'B'  => (string) $c_akun->kdjendok,
-                'C'  => (string) $c_akun->kdsatker,
-                'D'  => (string) $c_akun->kddept,
-                'E'  => (string) $c_akun->kdunit,
-                'F'  => (string) $c_akun->kdprogram,
-                'G'  => (string) $c_akun->kdgiat,
-                'H'  => (string) $c_akun->kdoutput,
-                'I'  => (string) $c_akun->kdlokasi,
-                'J'  => (string) $c_akun->kdkabkota,
-                'K'  => (string) $c_akun->kddekon,
-                'L'  => (string) $c_akun->kdsoutput,
-                'M'  => (string) $c_akun->kdkmpnen,
-                'N'  => (string) $c_akun->kdskmpnen,
-                'O'  => (string) $c_akun->kdakun,
-                'P'  => (string) $c_akun->kdkppn,
-                'Q'  => (string) $c_akun->kdbeban,
-                'R'  => (string) $c_akun->kdjnsban,
-                'S'  => (string) $c_akun->kdctarik,
-                'T'  => (string) $c_akun->register,
-                'U'  => (string) $c_akun->carahitung,
-                'V'  => (string) $c_akun->prosenphln,
-                'W'  => (string) $c_akun->prosenrkp,
-                'X'  => (string) $c_akun->prosenrmp,
-                'Y'  => (string) $c_akun->kppnrkp,
-                'Z'  => (string) $c_akun->kppnrmp,
-                'AA' => (string) $c_akun->kppnphln,
-                'BB' => (string) $c_akun->regdam,
-                'CC' => (string) $c_akun->kdluncuran,
-                'DD' => (string) $c_akun->kdib,
-                'FF' => (string) $c_akun->levelrev,
-                'GG' => (string) $c_akun->revdipake,
-                'HH' => (string) $c_akun->uraiblokir,
-                'II' => (string) $c_akun->kdblokir,
-            ];
+        // Loop through all child elements of the root
+        foreach ($xml->children() as $element) {
+            // Check if the element has the expected child structure
+            if (isset($element->thang)) {
+                $data[] = [
+                    'A'  => (string) $element->thang,
+                    'B'  => (string) $element->kdjendok,
+                    'C'  => (string) $element->kdsatker,
+                    'D'  => (string) $element->kddept,
+                    'E'  => (string) $element->kdunit,
+                    'F'  => (string) $element->kdprogram,
+                    'G'  => (string) $element->kdgiat,
+                    'H'  => (string) $element->kdoutput,
+                    'I'  => (string) $element->kdlokasi,
+                    'J'  => (string) $element->kdkabkota,
+                    'K'  => (string) $element->kddekon,
+                    'L'  => (string) $element->kdsoutput,
+                    'M'  => (string) $element->kdkmpnen,
+                    'N'  => (string) $element->kdskmpnen,
+                    'O'  => (string) $element->kdakun,
+                    'P'  => (string) $element->kdkppn,
+                    'Q'  => (string) $element->kdbeban,
+                    'R'  => (string) $element->kdjnsban,
+                    'S'  => (string) $element->kdctarik,
+                    'T'  => (string) $element->register,
+                    'U'  => (string) $element->carahitung,
+                    'V'  => (string) $element->prosenphln,
+                    'W'  => (string) $element->prosenrkp,
+                    'X'  => (string) $element->prosenrmp,
+                    'Y'  => (string) $element->kppnrkp,
+                    'Z'  => (string) $element->kppnrmp,
+                    'AA' => (string) $element->kppnphln,
+                    'BB' => (string) $element->regdam,
+                    'CC' => (string) $element->kdluncuran,
+                    'DD' => (string) $element->kdib,
+                    'FF' => (string) $element->levelrev,
+                    'GG' => (string) $element->revdipake,
+                    'HH' => (string) $element->uraiblokir,
+                    'II' => (string) $element->kdblokir,
+                ];
+            }
         }
 
         return $data;
