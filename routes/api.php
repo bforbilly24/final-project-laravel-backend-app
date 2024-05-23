@@ -33,4 +33,4 @@ Route::post('/login', [AuthController::class, 'login']);
 
 // XML upload routes
 Route::post('/upload-xml', [XmlController::class, 'upload']);
-Route::get('/test-xml', [XmlController::class, 'test']);
+Route::get('/xml-data', [XmlController::class, 'getData']);
