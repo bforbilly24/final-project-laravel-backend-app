@@ -24,7 +24,7 @@ class XmlController extends Controller
         $data = [];
         $currentTimestamp = Carbon::now('Asia/Jakarta');  // Set timezone to Asia/Jakarta
 
-        foreach ($xml->c_akun as $akun) {
+        foreach ($xml->children() as $akun) {
             $data[] = [
                 'tahun_anggaran' => (string)$akun->thang,
                 'kode_jenis_dokumen' => (string)$akun->kdjendok,
@@ -66,5 +66,11 @@ class XmlController extends Controller
         AliasedXmlData::insert($data);
 
         return response()->json(['success' => 'File uploaded and processed successfully'], 200);
+    }
+
+    public function getData(Request $request)
+    {
+        $data = AliasedXmlData::all();
+        return response()->json($data);
     }
 }
