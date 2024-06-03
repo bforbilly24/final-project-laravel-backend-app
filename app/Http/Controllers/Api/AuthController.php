@@ -66,4 +66,12 @@ class AuthController extends Controller
         // ]);
         // return redirect()->route('admin.auth.index');
     }
+    public function getUser(Request $request)
+    {
+        $user = Auth::user();
+        if ($user) {
+            return response()->json($user);
+        }
+        return response()->json(['error' => 'User not found'], 404);
+    }
 }
