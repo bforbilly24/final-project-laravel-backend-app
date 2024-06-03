@@ -16,11 +16,12 @@ class UserSeeder extends Seeder
     public function run()
     {
         $user = User::create([
-            // 'username' => 'admin',
+            'name' => 'Admin',
+            'username' => 'Super Admin',
             'email' => 'firstadmin@mail.com',
             'password' => bcrypt('Admin123,'),
         ]);
-
+        
         $token = JWTAuth::fromUser($user);
 
         // You can output the token to the console if needed
