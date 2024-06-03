@@ -18,17 +18,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['middleware' => ['auth:api']], function () {
     Route::post('/logout', [AuthController::class, 'logout']);
+    // XML SAVE AS ALIASED COLOUMN CHILDREN
+    Route::get('/user', [AuthController::class, 'getUser']);  // Add this line
+    // upload for xml file
+    Route::post('/upload-xml', [XmlController::class, 'uploadXml']);
+    // read xml data from database
+    Route::get('/xml-data', [XmlController::class, 'getData']);
 });
 
 
 // login
 Route::post('/login', [AuthController::class, 'login']);
 
-// XML SAVE AS ALIASED COLOUMN CHILDREN
-// upload for xml file
-Route::post('/upload-xml', [XmlController::class, 'uploadXml']);
-// read xml data from database
-Route::get('/xml-data', [XmlController::class, 'getData']);
 
 
 // XML SAVE AS PATH
