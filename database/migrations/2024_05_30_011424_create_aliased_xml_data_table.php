@@ -6,56 +6,94 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateAliasedXmlDataTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
     {
         Schema::create('aliased_xml_data', function (Blueprint $table) {
             $table->id();
-            $table->string('tahun_anggaran', 4);
-            $table->string('kode_jenis_dokumen', 2);
-            $table->string('kode_satker', 6);
-            $table->string('kode_dept', 3);
-            $table->string('kode_unit', 2);
-            $table->string('kode_program', 2);
-            $table->string('kode_giat', 4);
-            $table->string('kode_output', 3);
-            $table->string('kode_lokasi', 2);
-            $table->string('kode_kabupaten', 2);
-            $table->string('kode_dekon', 1);
-            $table->string('kode_sub_output', 3);
-            $table->string('kode_komponen', 3);
-            $table->string('kode_sub_komponen', 2);
-            $table->string('kode_akun', 6);
-            $table->string('kode_kppn', 3);
-            $table->string('kode_beban', 1);
-            $table->string('kode_jenis_bantuan', 1);
-            $table->string('kode_cara_tarik', 1);
-            $table->string('register', 8);
-            $table->string('cara_hitung', 1);
-            $table->decimal('prosentase_phln', 3, 0)->nullable();
-            $table->decimal('prosentase_rkp', 3, 0)->nullable();
-            $table->decimal('prosentase_rmp', 3, 0)->nullable();
-            $table->string('kppn_rkp', 3)->nullable();
-            $table->string('kppn_rmp', 3)->nullable();
-            $table->string('kppn_phln', 3)->nullable();
-            $table->string('reg_dam', 8)->nullable();
-            $table->string('kode_luncuran', 1)->nullable();
-            $table->string('kode_blokir', 1)->nullable();
-            $table->string('uraian_blokir', 100)->nullable();
-            $table->string('kode_ib', 2);
+            $table->string('tahun_anggaran')->nullable();
+            $table->string('kode_jenis_dokumen')->nullable();
+            $table->string('kode_satker')->nullable();
+            $table->string('kode_departemen')->nullable();
+            $table->string('kode_unit')->nullable();
+            $table->string('kode_program')->nullable();
+            $table->string('kode_kegiatan')->nullable();
+            $table->string('kode_output')->nullable();
+            $table->string('kode_lokasi')->nullable();
+            $table->string('kode_kabupaten_kota')->nullable();
+            $table->string('kode_dekon')->nullable();
+            $table->string('kode_soutput')->nullable();
+            $table->string('kode_komponen')->nullable();
+            $table->string('kode_skomponen')->nullable();
+            $table->string('kode_akun')->nullable();
+            $table->string('kode_kppn')->nullable();
+            $table->string('kode_beban')->nullable();
+            $table->string('kode_jenis_bantuan')->nullable();
+            $table->string('kode_cara_tarik')->nullable();
+            $table->string('register')->nullable();
+            $table->string('cara_hitung')->nullable();
+            $table->string('header1')->nullable();
+            $table->string('header2')->nullable();
+            $table->string('kode_header')->nullable();
+            $table->integer('nomor_item')->nullable();
+            $table->string('nama_item')->nullable();
+            $table->integer('volume1')->nullable();
+            $table->string('satuan1')->nullable();
+            $table->integer('volume2')->nullable();
+            $table->string('satuan2')->nullable();
+            $table->integer('volume3')->nullable();
+            $table->string('satuan3')->nullable();
+            $table->integer('volume4')->nullable();
+            $table->string('satuan4')->nullable();
+            $table->decimal('volume_kegiatan', 9, 2)->nullable();
+            $table->string('satuan_kegiatan')->nullable();
+            $table->decimal('harga_satuan', 17, 2)->nullable();
+            $table->decimal('jumlah', 15, 0)->nullable();
+            $table->decimal('jumlah2', 15, 0)->nullable();
+            $table->decimal('pagu_phln', 15, 0)->nullable();
+            $table->decimal('pagu_rmp', 15, 0)->nullable();
+            $table->decimal('pagu_rkp', 15, 0)->nullable();
+            $table->string('kode_blokir')->nullable();
+            $table->decimal('blokir_phln', 15, 0)->nullable();
+            $table->decimal('blokir_rmp', 15, 0)->nullable();
+            $table->decimal('blokir_rkp', 15, 0)->nullable();
+            $table->decimal('rupiah_blokir', 15, 0)->nullable();
+            $table->string('kode_copy')->nullable();
+            $table->string('kode_abt')->nullable();
+            $table->string('kode_sbu')->nullable();
+            $table->decimal('volume_sbk', 14, 2)->nullable();
+            $table->decimal('volume_rkakl', 14, 2)->nullable();
+            $table->string('bulan_kontrak')->nullable();
+            $table->string('nomor_kontrak')->nullable();
+            $table->date('tanggal_kontrak')->nullable();
+            $table->decimal('nilai_kontrak', 15, 0)->nullable();
+            $table->decimal('januari', 15, 0)->nullable();
+            $table->decimal('februari', 15, 0)->nullable();
+            $table->decimal('maret', 15, 0)->nullable();
+            $table->decimal('april', 15, 0)->nullable();
+            $table->decimal('mei', 15, 0)->nullable();
+            $table->decimal('juni', 15, 0)->nullable();
+            $table->decimal('juli', 15, 0)->nullable();
+            $table->decimal('agustus', 15, 0)->nullable();
+            $table->decimal('september', 15, 0)->nullable();
+            $table->decimal('oktober', 15, 0)->nullable();
+            $table->decimal('november', 15, 0)->nullable();
+            $table->decimal('desember', 15, 0)->nullable();
+            $table->decimal('jumlah_tunda', 15, 0)->nullable();
+            $table->string('kode_luncuran')->nullable();
+            $table->decimal('jumlah_abt', 18, 0)->nullable();
+            $table->string('nomor_revisi')->nullable();
+            $table->string('kode_ubah')->nullable();
+            $table->decimal('kurs', 4, 3)->nullable();
+            $table->decimal('index_kpjm', 7, 4)->nullable();
+            $table->string('kode_ib')->nullable();
+            $table->string('kode_status')->nullable();
+            $table->string('level_revisi')->nullable();
+            $table->string('revisi_rkakl_ke')->nullable();
+            $table->string('revisi_dipa_ke')->nullable();
             $table->timestamps();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('aliased_xml_data');
