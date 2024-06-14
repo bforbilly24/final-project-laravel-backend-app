@@ -1,8 +1,9 @@
 <?php
 
 use App\Http\Controllers\Api\AuthController;
-use App\Http\Controllers\Api\RkksController;
+// use App\Http\Controllers\Api\RkksController;
 use App\Http\Controllers\Api\XmlController;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,15 +20,16 @@ use Illuminate\Support\Facades\Route;
 Route::group(['middleware' => ['auth:api']], function () {
     Route::post('/logout', [AuthController::class, 'logout']);
     // XML SAVE AS ALIASED COLOUMN CHILDREN
-    Route::get('/user', [AuthController::class, 'getUser']);  // Add this line
-    // upload for xml file
+    Route::get('/user', [AuthController::class, 'getUser']); 
+    // UPLOAD XML FILE
     Route::post('/upload-xml', [XmlController::class, 'uploadXml']);
-    // read xml data from database
+    // READ XML DATA FROM DATABASE
     Route::get('/xml-data', [XmlController::class, 'getData']);
 });
+// STATUS API
+route::get('/status', [Controller::class, 'status']);
 
-
-// login
+// LOGIN
 Route::post('/login', [AuthController::class, 'login']);
 
 
