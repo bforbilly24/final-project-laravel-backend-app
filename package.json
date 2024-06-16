@@ -1,5 +1,13 @@
 {
+    "id": "rkkspens-laravel-backend-app",
+    "displayName": "RKKS - Rencana Kerja Kegiatan Satuan (Backend)",
+    "version": "1.0.0",
     "private": true,
+    "author": {
+        "name": "Halim Putra",
+        "email": "halimputra0701@icloud.com",
+        "url": "https://www.bforbilly.me/"
+    },
     "type": "module",
     "scripts": {
         "dev": "vite",
